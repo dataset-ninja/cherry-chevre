@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = None
+LICENSE: License = License.Etalab_2_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Livestock()]
 CATEGORY: Category = Category.Livestock()
 
