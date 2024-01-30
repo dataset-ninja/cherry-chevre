@@ -14,7 +14,14 @@ To address this gap, the authors present the inaugural dataset for goat detectio
 
 * **Phantom3.** Creole goats, engaging in grazing activities across two distinct pastures (G1 + G2), were documented using a ***phantom3*** UAV drone equipped with a 12-megapixel camera sensor. The camera, featuring a 94-degree field of view lens for expansive shots, captured images at a maximum resolution of 4000 × 3000 px. The observational study spanned four consecutive days in April 2017 at the INRA-PTEA farm (16° 2 N; 61° 2 W), with a total of 47 images re-annotated to include young goats (kids). To accommodate the small size of the animals and the large image dimensions, each original image was subdivided into smaller segments, resulting in 696 images, each with dimensions of 1000 × 750 px.
 
-<img src="https://github.com/dataset-ninja/cherry-chevre/assets/120389559/0e6af1f0-bb0e-443d-8b13-bbc618f173fe" alt="image" width="1000">
+| Source | Date       | Images |
+|--------|------------|--------|
+| G1     | 10/04/2017 | 299    |
+| G2     | 10/04/2017 | 281    |
+| G1     | 11/04/2017 | 35     |
+| G2     | 11/04/2017 | 46     |
+| G1     | 12/04/2017 | 35     |
+| Videos | 13/04/2017 | 150    |
 
 <span style="font-size: smaller; font-style: italic;">Number of annotated images by date for the Phantom3.</span>
 
@@ -22,15 +29,39 @@ To address this gap, the authors present the inaugural dataset for goat detectio
 
 * **Tracking series.** A CCTV camera (ENEO - IPD-75M2713M5A) boasting a resolution of 2592 × 1944 px was employed to record 17 videos capturing goats grazing in a pasture throughout 2022 over five distinct days. The purpose behind this recording was the development of a ***tracking*** algorithm. Each video was subsampled to yield 98 images, comprising 50 with non-overlapping goats and 50 featuring a minimum of two goats overlapping. These video sessions occurred at two locations within the INRAE-PTEA facility in Guadeloupe, French West Indies. In early 2023, an additional set of six videos was created over three separate days at the experimental plot in Duclos. These videos featured male goats exhibiting varied coat colors, including dark, white, russet, and dark-russet. Each goat was equipped with a collar, distinguished by red, yellow, orange, and blue colors, respectively, to facilitate the attachment of an accelerometer. Concurrently, eight more videos were recorded at Gardel in early 2023, spanning four different days.
 
-<img src="https://github.com/dataset-ninja/cherry-chevre/assets/120389559/568a0616-c405-4134-9a46-a14315814dda" alt="image" width="1000">
+| Date       | Location | Images |
+|------------|----------|--------|
+| 12/04/2022 | Duclos   | 98     |
+| 22/04/2022 | Duclos   | 687    |
+| 26/04/2022 | Duclos   | 197    |
+| 17/02/2023 | Duclos   | 136    |
+| 23/02/2023 | Duclos   | 280    |
+| 24/02/2023 | Duclos   | 97     |
+| 02/05/2022 | Gardel   | 196    |
+| 16/06/2022 | Gardel   | 489    |
+| 14/03/2023 | Gardel   | 146    |
+| 16/03/2023 | Gardel   | 33     |
+| 17/03/2023 | Gardel   | 25     |
+| 24/03/2023 | Gardel   | 25     |
 
 <span style="font-size: smaller; font-style: italic;">Dates, location and number of annotated images, using the ENEO camera.</span>
 
 * **External.** This subset amalgamates images from two distinct sites. The first site, named Mosar, is situated at the INRAE UMR 791 in Grignon, France. Within this subset, European goats housed indoors are featured, showcasing two pens each accommodating eight animals. The camera and feeding tray setup primarily captures the goats from behind, with a sub-sampling of four 30-minute videos. The second collaborator is situated at the Experimental Unit FERLUS, presenting a limited collection of ground-level images depicting European goats in an outdoor pasture. The image sizes for the first and second subsets are 1280 × 720 px and 4032 × 3024 px, respectively.
 
-<img src="https://github.com/dataset-ninja/cherry-chevre/assets/120389559/08b5e64f-2dc8-45be-9316-9a4292d8f9f5" alt="image" width="1000">
+| Date       | Location | Images |
+|------------|----------|--------|
+| 23/03/2022 | Mosar-p1 | 151    |
+| 23/03/2022 | Mosar-p2 | 45     |
+| 23/03/2022 | Mosar-p3 | 45     |
+| 23/03/2022 | Mosar-p4 | 44     |
+| 10/03/2016 | Ferlus   | 14     |
 
 <span style="font-size: smaller; font-style: italic;">Date, location and number of annotated images for external sources.</span>
 
+| Date | Study  | Images |
+|------|--------|--------|
+| 2018 | 19     | 140    |
+| 2020 | 20,21  | 1446   |
+| 2022 | 22     | 784    |
 
-
+<span style="font-size: smaller; font-style: italic;">Number of annotated images by date for the TLC2000 device.</span>

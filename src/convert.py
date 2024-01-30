@@ -6,11 +6,11 @@ from collections import defaultdict
 from urllib.parse import unquote, urlparse
 
 import supervisely as sly
-from dataset_tools.convert import unpack_if_archive
 from supervisely.io.fs import file_exists, get_file_name, get_file_name_with_ext
 from tqdm import tqdm
 
 import src.settings as s
+from dataset_tools.convert import unpack_if_archive
 
 
 def download_dataset(teamfiles_dir: str) -> str:
@@ -126,7 +126,7 @@ def convert_and_upload_supervisely_project(
 
         return sly.Annotation(img_size=(img_height, img_wight), labels=labels, img_tags=tags)
 
-    obj_class = sly.ObjClass("animal", sly.Rectangle)
+    obj_class = sly.ObjClass("goat", sly.Rectangle)
 
     crosscall_meta = sly.TagMeta("crosscall", sly.TagValueType.NONE)
     external_meta = sly.TagMeta("external", sly.TagValueType.NONE)

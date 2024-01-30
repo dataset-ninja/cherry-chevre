@@ -24,7 +24,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.Etalab_2_0()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Livestock()]
-CATEGORY: Category = Category.Livestock()
+CATEGORY: Category = Category.Livestock(extra=Category.Drones())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
@@ -72,9 +72,7 @@ AUTHORS: Optional[List[str]] = [
 ]
 AUTHORS_CONTACTS: Optional[List[str]] = ["javayss@sleek-think.ovh", "mathieu.bonneau@inrae.fr"]
 
-ORGANIZATION_NAME: Optional[
-    Union[str, List[str]]
-] = "Institut national de la recherche agronomique, France"
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "INRAe, France"
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://www.inrae.fr"
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
