@@ -27,6 +27,15 @@ To address this gap, the authors present the inaugural dataset for goat detectio
 
 * **Time-lapse camera.** The researchers utilized construction ***timelapse camera***, specifically the TLC2000 pro model from the year 2018 manufactured by Brinno, a brand previously employed in various studies. These cameras capture images at 1.3 megapixels with a resolution of 1280 × 720 px, utilizing jpeg compression. In the initial phase of the study, distinct experimental plots were established to investigate the detection and tracking of goats and sheep. The first subset comprised seven indoor-raised Creole sheep with identical reddish coats. The second dataset featured a single Creole sheep with a brown coat, while the third included nine goats in close proximity to the camera, six of them sporting dark coats and the remainder having red coats. Additionally, a few distant goats were annotated in the dataset. Building on prior research, the authors expanded their dataset by collecting additional data in natural environments encompassing various lighting conditions. The established framework from earlier studies underwent refinement and testing as the researchers monitored two goat herds in farm-like conditions. One ***timelapse camera*** was deployed to observe an area approximately 20 × 20 meters, and multiple cameras were strategically combined to monitor the entirety of the pasture.
 
+| Date | Study  | Images |
+|------|--------|--------|
+| 2018 | 19     | 140    |
+| 2020 | 20,21  | 1446   |
+| 2022 | 22     | 784    |
+
+<span style="font-size: smaller; font-style: italic;">Number of annotated images by date for the TLC2000 device.</span>
+
+
 * **Tracking series.** A CCTV camera (ENEO - IPD-75M2713M5A) boasting a resolution of 2592 × 1944 px was employed to record 17 videos capturing goats grazing in a pasture throughout 2022 over five distinct days. The purpose behind this recording was the development of a ***tracking*** algorithm. Each video was subsampled to yield 98 images, comprising 50 with non-overlapping goats and 50 featuring a minimum of two goats overlapping. These video sessions occurred at two locations within the INRAE-PTEA facility in Guadeloupe, French West Indies. In early 2023, an additional set of six videos was created over three separate days at the experimental plot in Duclos. These videos featured male goats exhibiting varied coat colors, including dark, white, russet, and dark-russet. Each goat was equipped with a collar, distinguished by red, yellow, orange, and blue colors, respectively, to facilitate the attachment of an accelerometer. Concurrently, eight more videos were recorded at Gardel in early 2023, spanning four different days.
 
 | Date       | Location | Images |
@@ -58,10 +67,3 @@ To address this gap, the authors present the inaugural dataset for goat detectio
 
 <span style="font-size: smaller; font-style: italic;">Date, location and number of annotated images for external sources.</span>
 
-| Date | Study  | Images |
-|------|--------|--------|
-| 2018 | 19     | 140    |
-| 2020 | 20,21  | 1446   |
-| 2022 | 22     | 784    |
-
-<span style="font-size: smaller; font-style: italic;">Number of annotated images by date for the TLC2000 device.</span>
