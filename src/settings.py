@@ -17,7 +17,7 @@ PROJECT_NAME: str = "Cherry Chevre"
 PROJECT_NAME_FULL: str = (
     "Cherry Chevre: A Fine-Grained Dataset for Goat Detection in Natural Environments"
 )
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
