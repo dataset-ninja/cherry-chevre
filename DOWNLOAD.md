@@ -1,6 +1,6 @@
 Dataset **Cherry Chevre** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/8/B/iq/g0XnqUs0Erk8ZLJhtfEisvk0Qmuxdv5klC73V4LFjPzx1edCdJR8LJgU0siODFEwyKsvQ9nnQaxG7ilc48cvz7piHmUpbmGtAE5IdiawS9YgnBmGUeBxDhAYTOMy.tar)
+ [Download](https://www.dropbox.com/scl/fi/ztfpsx4til97j2lpl2pvo/cherry-chevre-DatasetNinja.tar?rlkey=jv6yjpeogvnd77v7d556k8422&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
